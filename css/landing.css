@@ -71,6 +71,12 @@ body {
   .header-img {
     width: 50%;
   }
+  #gallery-phone {
+    display: none;
+  }
+  #gallery {
+    display: block;
+  }
 }
 
 /* Styles for mobile (up to 768px width) */
@@ -82,6 +88,12 @@ body {
   }
   #logo {
     width: 100%;
+  }
+  #gallery-phone {
+    display: block;
+  }
+  #gallery {
+    display: none;
   }
 }
 
