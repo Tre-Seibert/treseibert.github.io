@@ -64,7 +64,7 @@ body {
 /* Styles for desktop (greater than 768px width) */
 @media (min-width: 769px) {
   .img-fluid {
-    max-width: 75%; /* Make the picture 50% smaller for desktop users */
+    max-width: 100%; /* Make the picture 50% smaller for desktop users */
     height: auto;
     margin-bottom: 20px;
   }
