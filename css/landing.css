@@ -62,7 +62,7 @@ body {
   /* This section is for the logo */
 
 /* Styles for desktop (greater than 768px width) */
-@media (min-width: 853px) {
+@media (min-width: 769px) {
   .img-fluid {
     max-width: 75%; /* Make the picture 50% smaller for desktop users */
     height: auto;
@@ -74,7 +74,7 @@ body {
 }
 
 /* Styles for mobile (up to 768px width) */
-@media (max-width: 852px) {
+@media (max-width: 768px) {
   .img-fluid {
     max-width: 100%; /* Make the picture 75% smaller for mobile users */
     height: auto;
