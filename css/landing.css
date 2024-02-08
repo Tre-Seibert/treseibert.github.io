@@ -30,6 +30,7 @@ body {
     color: black;
     font-weight: bold;
   }
+
     /* Gallery */
   .carousel-item img {
     border: 2px solid black; /* Add a 2px solid black border */
@@ -78,6 +79,9 @@ body {
     max-width: 100%; /* Make the picture 75% smaller for mobile users */
     height: auto;
     margin-bottom: 20px;
+  }
+  .header-img {
+    width: 100%;
   }
 }
 
