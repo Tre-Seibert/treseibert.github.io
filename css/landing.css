@@ -75,7 +75,7 @@ body {
 /* Styles for mobile (up to 768px width) */
 @media (max-width: 768px) {
   .img-fluid {
-    max-width: 75%; /* Make the picture 75% smaller for mobile users */
+    max-width: 100%; /* Make the picture 75% smaller for mobile users */
     height: auto;
     margin-bottom: 20px;
   }
