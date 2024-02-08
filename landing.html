@@ -90,6 +90,22 @@
     </div>
   </footer>
   
+  <!-- JavaScript for Access Key -->
+  <script>
+    // Define your access key
+    const accessKey = "1145";
+
+    // Prompt the user for the access key
+    const userInput = prompt("Please enter the access key:");
+
+    // Check if the entered key matches the predefined key
+    if (userInput !== accessKey) {
+      // Redirect or deny access
+      alert("Access denied. Please enter a valid access key.");
+      window.location.href = "https://example.com/access-denied"; // Redirect to a different page
+    }
+  </script>
+
   <!-- jLoad  Popper.js, then Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
