@@ -22,9 +22,6 @@ body {
     font-family: "Marck Script";
   }
 
- .header-img {
-    width: 50%;
-  }
 
   .nav-link {
     color: black;
@@ -70,6 +67,9 @@ body {
     max-width: 75%; /* Make the picture 50% smaller for desktop users */
     height: auto;
     margin-bottom: 20px;
+  }
+  .header-img {
+    width: 50%;
   }
 }
 
