@@ -1,0 +1,92 @@
+/* This section is for the entire body */
+
+body {
+    font-family: 'Didot', serif;
+    text-align: center;
+    padding: 40px;
+    background-color: white; /* Light blue background color */
+  }
+
+  p, h3{
+    color: 	black;
+    font-family: "Marck Script";
+  }
+
+  p, h4{
+    color: 	black;
+    font-family: "Marck Script";
+  }
+
+ h1 {
+    color: 	black;
+    font-family: "Marck Script";
+  }
+
+ .header-img {
+    width: 50%;
+  }
+
+  .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+    /* Gallery */
+  .carousel-item img {
+    border: 2px solid black; /* Add a 2px solid black border */
+    margin: auto; /* Optional: Center the images horizontally */
+  }
+
+  .carousel-controls-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 35%; /* Adjust this value as needed */
+
+  }
+
+
+  /* Nav Bar */
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+  }
+
+/****************************************/
+
+  /* This section is for the logo */
+
+/* Styles for desktop (greater than 768px width) */
+@media (min-width: 769px) {
+  .img-fluid {
+    max-width: 75%; /* Make the picture 50% smaller for desktop users */
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Styles for mobile (up to 768px width) */
+@media (max-width: 768px) {
+  .img-fluid {
+    max-width: 75%; /* Make the picture 75% smaller for mobile users */
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* ******************************/
+
+
+/* Fonts */
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

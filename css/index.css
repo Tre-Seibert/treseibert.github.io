@@ -1,0 +1,34 @@
+body {
+    font-family: 'Didot', serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #e6f7ff; /* Light blue background color */
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+
+/* Styles for desktop (greater than 768px width) */
+@media (min-width: 769px) {
+  .img-fluid {
+    max-width: 50%; /* Make the picture 50% smaller for desktop users */
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #000; /* Add a small black border */
+  }
+}
+
+/* Styles for mobile (up to 768px width) */
+@media (max-width: 768px) {
+  .img-fluid {
+    max-width: 75%; /* Make the picture 75% smaller for mobile users */
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #000; /* Add a small black border */
+  }
+}
