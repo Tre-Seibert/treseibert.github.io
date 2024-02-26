@@ -1,0 +1,60 @@
+/* This section is for the entire body */
+
+body {
+    font-family: 'Didot', serif;
+    text-align: center;
+    padding: 40px;
+    background-color: white; /* Light blue background color */
+  }
+ h1 {
+    color: 	black;
+    font-family: "Didot";
+  }
+
+  #logo {
+    max-width: 10%;
+  }
+
+/* Styles for desktop (greater than 768px width) */
+@media (min-width: 1200px) {
+    img {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .venue-description {
+        font-family: Pacifico;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+
+
+  /******* Nav Bar ****************/
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+  }
+
+  .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+
+
+/* ******************************/
+
+/******* Footer ****************/
+
+  footer h3 {
+    font-family: "Marck Script";
+  }
+
+
+/* ******************************/
+
+/* Fonts */
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
