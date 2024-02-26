@@ -10,7 +10,7 @@
   
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/booking.css">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,44 +41,51 @@
     </div>
   </nav>
 
-
-  <div class="container">
+  <div class="container mt-4">
     <div class="row">
-      <div class="col">
-        <h1>About Us</h1>
-        <p class="venue-description mt-5">
-          Welcome to Shawnee Run Wedding and Events Venue, nestled on a historic property over 200 years old in Lancaster, PA. Our venue boasts a serene setting amidst beautiful willow trees, some as old as the venue itself, creating an enchanting backdrop for weddings, corporate gatherings, or any special celebration.
-        </p>
-        <p class="venue-description">
-          At Shawnee Run, we pride ourselves on offering a truly unique experience for our clients. We understand that every event is special and deserves to be treated as such. That's why we are committed to providing personalized service and giving our clients the freedom to create the event of their dreams. Whether you envision an intimate ceremony or a lavish reception, Shawnee Run offers the perfect blend of charm and sophistication to make your event unforgettable.
-        </p>
-        <!-- Image placed here -->
-        <div class="col-md-6">
-          <img src="images/3.jpg" alt="Venue Image" class="img-fluid rounded float-start me-md-5">
+      <div class="col mt-4">
+        <h1>Booking</h1>
+        <form>
+          <div class="mt-5 form">
+            <label for="event-type" class="form-label">Event Type</label>
+            <select class="form-select" id="event-type" name="event-type">
+              <option selected disabled>Select event type</option>
+              <option value="wedding">Wedding</option>
+              <option value="baby-shower">Baby Shower</option>
+              <option value="birthday-party">Birthday Party</option>
+              <option value="corporate-event">Corporate Event</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="mb-3 form">
+            <label for="eventDate" class="form-label">Event Date</label>
+            <input type="date" class="form-control" id="eventDate" required>
+          </div>
+          <div class="mb-3 form">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3 form">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <button type="submit" class="btn btn-primary form">Submit</button>
+        </form>
+        <div class="mt-5 form">
+          <h5><B>Booking Process</h5></B>
+          <p>To book, simply fill out the form above with your event details. Once submitted, we will review your request and get back to you regarding current availability to accommodate your needs and preferences. We look forward to helping you plan your special event!</p>
         </div>
-        <p class="venue-description">
-          Our venue is not just a place, but a destination where memories are made. Imagine exchanging vows under the shade of ancient willow trees, surrounded by the love and support of family and friends. Or perhaps you're celebrating a milestone birthday or anniversary, surrounded by laughter and joy. Whatever the occasion, Shawnee Run sets the stage for magical moments that will be cherished for a lifetime.
-        </p>
-        <p class="venue-description">
-          What sets Shawnee Run apart is not just its natural beauty, but also its versatility. We welcome bookings for any type of event and offer the flexibility to customize every aspect to suit your needs. From choosing your preferred catering service to selecting the perfect décor, our experienced team is here to ensure every detail is taken care of.
-        </p>
-        <p class="venue-description">
-          Ready to start planning your event? Visit our booking page to check availability and reserve your date. Our easy-to-use booking system makes it simple to secure your spot at Shawnee Run Wedding and Events Venue. Let us help you turn your vision into reality and create memories that will last a lifetime.
-        </p>
-        <p class="venue-description">
-          Contact us today to learn more about Shawnee Run Wedding and Events Venue and how we can make your next event truly special.
-        </p>
       </div>
-
     </div>
   </div>
-  
+
   <!-- Footer -->
   <footer class="footer mt-5 py-3">
     <div class="container text-center">
       <h3><p class="">© 2024 Shawnee Run Wedding Venue & Events</p></h3>
     </div>
   </footer>
+
   
   <!-- JavaScript for Access Key -->
   <script>
